@@ -50,8 +50,8 @@ User: Authenticated - An individual that has registered to the website would be 
 * Design: Figma, figjam
 * Visual Studio 
 * Frontend: HTML, CSS, JavaScript
-* Backend: Node JS, Express, MongoDB
-* Database: MySql
+* Backend: NodeJS, Express
+* Database: MongoDB
 * Version Control and Project Management: Github
 
 ## Product Devices
