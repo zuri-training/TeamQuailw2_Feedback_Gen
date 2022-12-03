@@ -2,15 +2,15 @@
 
 ## Table of Contents
 
-❖ Introduction
-❖ Project Background
-❖ Project Overview
-❖ Features
-❖ Technologies/Languages
-❖ Product Device
-❖ Product Accessibility
-❖ Acknowledgement
-❖ Reference
+* [Introduction](#introduction)
+* [Project Background](#project-background)
+* [Project Overview](#project-overview)
+* [Features](#features)
+* [Technologies Used](#technologies-used)
+* [Product Device](#product-device)
+* [Product Accessibility](#product-accessibility)
+* [Acknowledgement](#acknowledgement)
+* [Reference](#reference)
 
 
 ## Introduction
@@ -24,51 +24,50 @@ We sometimes get something because of the feedback some people have given on a p
 This platform will allow users create feedback that is embedded on their organization platform.
 
 ## Product Overview
-Feedback is not just limited an advice, a praise, or evaluation. Feedback is an information about how one is doing in effort to reach a goal. It can be written comments, electronic comments, meeting with individuals and suggestion from friends. It very important in our businesses, schools, hospitals, offices and our everyday life.
+* Feedback is not just limited an advice, a praise, or evaluation. Feedback is an information about how one is doing in effort to reach a goal. It can be written comments, electronic comments, meeting with individuals and suggestion from friends. It very important in our businesses, schools, hospitals, offices and our everyday life.
 
-Every organization wants to know what their users/customers think of their product/platform, it is a lot of times a metric for eveluation and can help them adjust towards serving the users better. The problem however would be how to get these feedbacks to be embedded on the platform and that is why this product exist. Simple, time-saving and very effective. Get feedback form embedded to your platform easily.
+* Every organization wants to know what their users/customers think of their product/platform, it is a lot of times a metric for eveluation and can help them adjust towards serving the users better. The problem however would be how to get these feedbacks to be embedded on the platform and that is why this product exist. Simple, time-saving and very effective. Get feedback form embedded to your platform easily.
 
 ## Features
 
-#User: Unauthenticated - An individual that has not registered to the website would be able to;
+User: Unauthenticated - An individual that has not registered to the website would be able to;
 
-1. Visit the platform to view basic information about the platform
-2. View and interacts with documentation
-3. Register to view more details
-4. No access to use until registered
+* Visit the platform to view basic information about the platform
+* View and interacts with documentation
+* Register to view more details
+* No access to use until registered
 
-#User: Authenticated - An individual that has registered to the website would be able to;
-1. Full access to the platform
-2. Users can create new feedback forms
-3. Users can embed the feedback from in different formats (link and short code should be
-the minimum)
-4. Users see usage example
-5. Users can interact with the documentation
-6. Users can select from feedback template
-7. Allow user save data and come back to download
+User: Authenticated - An individual that has registered to the website would be able to;
+* Full access to the platform
+* Users can create new feedback forms
+* Users can embed the feedback from in different formats (link and short code should be the minimum)
+* Users see usage example
+* Users can interact with the documentation
+* Users can select from feedback template
+* Allow user save data and come back to download
 
-## Technologies/Languages
-❖ Design: Figma, figjam
-❖ Visual Studio (https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-❖ Frontend: HTML, CSS, JavaScript
-❖ Backend: Node JS, Express, MongoDB
-❖ Database: MySql
-❖ Version Control and Project Management: Github
+## Technologies Used
+* Design: Figma, figjam
+* Visual Studio 
+* Frontend: HTML, CSS, JavaScript
+* Backend: Node JS, Express, MongoDB
+* Database: MySql
+* Version Control and Project Management: Github
 
 ## Product Devices
-❖ Laptops
-❖ Desktops
-❖ Tablets
+* Laptops
+* Desktops
+* Tablets
 
 ## Product Accessibility
-❖ Open “Feedback_gen”
-❖ Go through the landing page to read documentation
-❖ Login/Sign up
-❖ Start from scratch
-❖ Template
-❖ Plan and Pricing
-❖ Profile
-❖ Sign out
+* Open “Feedback_gen”
+* Go through the landing page to read documentation
+* Login/Sign up
+* Start from scratch
+* Template
+* Plan and Pricing
+* Profile
+* Sign out
 
 ## Project Status
  Project is ongoing
