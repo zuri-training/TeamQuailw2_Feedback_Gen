@@ -58,6 +58,7 @@ User: Authenticated - An individual that has registered to the website would be 
 * Laptops
 * Desktops
 * Tablets
+* Mobile Phone
 
 ## Product Accessibility
 * Open “Feedback_gen”
