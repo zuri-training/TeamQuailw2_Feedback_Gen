@@ -19,7 +19,7 @@ A platform that allows users create feedback forms to be embedded on their platf
 The Contributors would create basic pieces of information to ensure this product is a success.
 
 ## Project Background
-* The online world is here and it is here to stay. Feedback is an essential part of a business as it can improve or make ones' business or organization. 
+* The online world is here and it is here to stay. Feedback is an essential part of a business as it can improve or mar ones' business or organization. 
 We sometimes get something because of the feedback some people have given on a product, a website, school, hospitals, shops etc. Some reviews we get from people can most likely be spam or can be done in a way that can put the platform at risk, that is why we are introducing our product “Feedback_gen”.
 This platform will allow users create feedback that is embedded on their organization platform.
 
