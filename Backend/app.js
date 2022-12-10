@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
 
+require('./src/user/user.model');
+
+app.use(require('./src/user/user.route'));
+
 app.use(express.json());
 
 app.get("/", (req, res) => {
