@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background: #FFFFFF;
+    font-family: 'Urbanist', sans-serif;
+}
+nav{
+    font-weight: bold;
+}
+.survey{
+    border-top: 3px solid #D9D9D9;;
+    border-bottom: 3px solid #D9D9D9;;
+}
+.send{
+    border-radius: 12px;
+    background-color: #3F00FF;
+    color: #F7F5FF;;
+}
+.send:hover{
+    background-color: #2A00AA;
+    color: #F7F5FF;;
+}
+#prev,#next{
+    border: none;
+    background-color:#FFFFFF;
+}
+.quesAns{
+    color: black;
+}
+.body{
+	width: 600px;
+	border-top: 8px solid #5F2BFF;
+    border-bottom:1px solid #5F2BFF;
+    border-right:1px solid #5F2BFF;
+    border-left:1px solid #5F2BFF;
+    border-radius: 12px;
+}
+#surveyName{
+    font-weight: bold;
+}
+
+
+#question{
+    border: none;
+    border-bottom: 2px solid #D9D9D9;
+    background-color: #F7F5FF;;
+}
+.optionBtn,.addQuestions{
+    background-color:#FFFFFF;
+    border: 1px solid #5F2BFF;
+    border-radius: 9px;
+}
+.optionBtn:hover{
+    background-color: #5F2BFF ;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 2px;
+background:#5F2BFF;
+width: 60px;
+}
