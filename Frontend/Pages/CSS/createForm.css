@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Urbanist", sans-serif;
+  max-height: 100vh;
+}
+
+.navbar-nav {
+  display: flex;
+  flex: 1;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.navbar-nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.navbar-nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  height: 36px;
+}
+
+.profile-pic {
+  height: 50px;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  vertical-align: middle;
+  text-align: center;
+  color: transparent;
+  transition: all .3s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.profile-pic:hover {
+  z-index: 10000;
+  transition: all .3s ease;
+  text-decoration: none;
+}
+
+form input[type="file"] {
+        display: none;
+        cursor: pointer;
+}
+
+.container .w-75{
+  background-color: #3f00ff;
+  color: rgb(255, 255, 255);
+}
+
+.container .w-75:hover{
+  background-color: none;
+  outline: 1px solid #3f00ff;
+  color: rgb(0, 0, 0);
+}
+
+.container .w-25{
+  background-color: #3f00ff;
+  color: rgb(255, 255, 255);
+}
+
+.container .w-25:hover{
+  background-color: none;
+  outline: 1px solid #3f00ff;
+  color: rgb(0, 0, 0);
+}
+
+#fav-button {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  border: 1px solid #000000;
+  box-sizing: content-box;
+  text-align: center;
+}
+
+/* .search .bi-search {
+  position: absolute;
+  top: 125px;
+  right: 22%;
+} */
+
+.search-bar {
+  margin-top: -40px;
+}
+
+
+@media screen and (max-width:768px) {
+  .search-bar {
+    position: absolute;
+    margin-top: 20px;
+  }
+  #fav-button{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: none;
+  }
+  .flex-column h2{
+    display: none;
+  }
+  .template-btn{
+    /* font-size: 10px; */
+    display: none;
+  }
+}
