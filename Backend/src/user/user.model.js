@@ -1,53 +1,57 @@
-import mongoose from "mongoose"
+const mongoose = require("mongoose");
+const bcrypt = require("bcrypt");
+const moment = require("moment");
+const jwt = require("jsonwebtoken");
+const config = require("../config/config");
 
-const userSchema = new mongoose.Schema({
-  username: {type: String, lowercase: true, required: [true, "can't be blank"], match: [/^[a-zA-Z0-9]+$/, 'is invalid'], index: true},
-  email: {type: String, lowercase: true, required: [true, "can't be blank"], match: [/\S+@\S+\.\S+/, 'is invalid'], index: true},
-  hash: String,
-  salt: String
-}, {timestamps: true});
+const userSchema = new mongoose.Schema(
+    {
+        firstName: {
+            type: String,
+            required: [true, "can't be blank"],
+            index: true,
+        },
+        lastName: {
+            type: String,
+            required: [true, "can't be blank"],
+            index: true,
+        },
+        email: {
+            type: String,
+            required: [true, "can't be blank"],
+            match: [/\S+@\S+\.\S+/, "is invalid"],
+            index: true,
+            unique: true,
+        },
+        password: {
+            type: String,
+            required: true,
+        },
+    },
+    { timestamps: true }
+);
 
+userSchema.pre("save", async function () {
+    const salt = await bcrypt.genSalt(10);
+    this.password = await bcrypt.hash(this.password, salt);
+});
 
-
-const mongoose = require('mongoose');
-const uniqueValidator = require('mongoose-unique-validator');
-const crypto = require('crypto');
-
-userSchema.methods.setPassword = function(password){
-      this.salt = crypto.randomBytes(16).toString('hex');
-      this.hash = crypto.pbkdf2Sync(password, this.salt, 10000, 512, 'sha512').toString('hex');
+userSchema.methods.createJWT = function () {
+    const payload = {
+        id: this._id,
+        email: this.email,
+        iat: moment().unix(),
+        exp: moment().add(config.expire, "minutes").unix(),
     };
 
-userSchema.methods.validPassword = function(password) {
-      const hash = crypto.pbkdf2Sync(password, this.salt, 10000, 512, 'sha512').toString('hex');
-      return this.hash === hash;
-        };
+    return jwt.sign(payload, config.secret);
+};
 
-var crypto = require('crypto');
-var jwt = require('jsonwebtoken');
-var secret = require('../config').secret;
+userSchema.methods.correctPassword = async function (
+    candidatePassword,
+    userPassword
+) {
+    return await bcrypt.compare(candidatePassword, userPassword);
+};
 
-userSchema.methods.generateJWT = function() {
-    const today = new Date();
-    const exp = new Date(today);
-    exp.setDate(today.getDate() + 60);
-    
-     return jwt.sign({
-      id: this._id,
-      username: this.username,
-      exp: parseInt(exp.getTime() / 1000),
-     }, secret);
-    };
-
-userSchema.methods.toAuthJSON = function(){
-          return {
-            username: this.username,
-            email: this.email,
-            token: this.generateJWT(),
-          };
-        };
-
-
-const User = mongoose.model('User', userSchema);
-
-export default User
+module.exports = mongoose.model("User", userSchema);

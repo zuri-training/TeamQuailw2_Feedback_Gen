@@ -1,21 +1,24 @@
-import User from ('../user/user.model.js')
-import mongoose from 'mongoose'
+const userService = require("./user.service");
+const httpStatus = require("http-status");
+const catchAsync = require("../utilities/catchAsync");
 
+const register = catchAsync(async (req, res) => {
+    const user = await userService.register(req.body);
+    res.status(httpStatus.CREATED).send(user);
+});
 
-export async function Register(req, res, next) {
-    try {
-        const user = new User({
-            _id: mongoose.Types.ObjectId(),
-            username: req.body.username,
-            email: req.body.email,
-            timestamp: Date()
-        })
-        await user.save()
-        res.json(user)
+const login = catchAsync(async (req, res) => {
+    const user = await userService.login(req.body);
+    res.send(user);
+});
 
-    } catch (error) {
-        res.status(200).json({
-            error: error.message
-        })
-    }
-}
+const getUserById = catchAsync(async (req, res) => {
+    const user = await userService.getUserById(req.params.id);
+    res.send(user);
+});
+
+module.exports = {
+    register,
+    login,
+    getUserById,
+};
