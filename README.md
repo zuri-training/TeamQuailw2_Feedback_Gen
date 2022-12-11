@@ -30,7 +30,7 @@ This platform will allow users create feedback that is embedded on their organiz
 
 ## Features
 
-User: Unauthenticated - An individual that has not registered to the website would be able to;
+User: Unauthenticated - An individual that has not registered on the website would be able to;
 
 * Visit the platform to view basic information about the platform
 * View and interacts with documentation
