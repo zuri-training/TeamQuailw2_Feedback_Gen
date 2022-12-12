@@ -4,10 +4,6 @@ const passport = require('passport');
 const userRoutes = require('./src/user/user.route');
 const authRoutes = require('./src/user/auth.route');
 
-// require('./src/user/user.model');
-
-// app.use(require('./src/user/user.route'));
-
 app.use(express.json());
 require('./src/config/passport');
 
