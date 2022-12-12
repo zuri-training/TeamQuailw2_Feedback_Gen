@@ -1,0 +1,116 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.topheader {
+  color: black;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #000;
+  max-width: 400px;
+  margin-top: 10%;
+}
+
+label {
+  display: block;
+  margin: 0.9rem 0;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #ccc;
+  min-height: 2rem;
+  outline: none;
+}
+
+.inline {
+  width: unset;
+  vertical-align: middle;
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="email"],
+input[type="password"] {
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding-left: 0.6rem;
+}
+
+input[type="submit"] {
+  margin-top: 0;
+}
+
+label[for="password"] {
+  margin-bottom: 0;
+}
+
+.space {
+  margin-top: 20px;
+}
+
+fieldset {
+  border: none;
+}
+
+input[type="submit"] {
+  background: #3F00Ff;
+  width: 100%;
+  display: block;
+  margin: auto;
+  color: white;
+  margin-top: 2.5rem;
+}
+
+span {
+  color: #3F00Ff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.log {
+  font-weight: 800;
+}
+
+.compress {
+  margin: 0;
+}
+
+.exist {
+  display: block;
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+form i {
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  float: left;
+}
+
+.align {
+  margin-left: 1.5rem;
+  margin-top: 0.45rem;
+}
+
+.adjust {
+  margin-top: 0.65rem;
+  margin-left: 1.7rem;
+}
