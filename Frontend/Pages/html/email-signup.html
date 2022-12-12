@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>email-signup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="../CSS/email-signup.css" type="text/css">
+  <script src="../JS/email-signup.js"></script>
+</head>
+<body>
+  <div class="container">
+    <form action="/submit-survey" id="survey-form">
+      <fieldset>
+        <header class="topheader">
+          <h1 id="title" class="compress">Sign up with Email</h1>
+          <p id="description" class="compress">
+            &#9664; Other sign up options
+          </p>
+        </header>
+        <label id="name-label">Name <input type="text" id="name" name="name" placeholder="Enter your fullname" required></label>
+        <label id="email-label">Email <input type="email" id="email" name="email" placeholder="Enter your email" required></label>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" pattern="[a-zA-Z0-9]{8,}" placeholder="Enter your password" required>
+        <i class="bi bi-eye-fill" id="togglePassword"></i>
+        <p class="compress">
+          Your password must include at least
+        </p>
+        <input type="checkbox" name="length" value="8" class="inline" id="check"> <div class="adjust">
+          8 characters
+        </div>
+        <label for="password">Confirm password</label>
+        <input type="password" name="password" id="passwordConfirm" pattern="[a-zA-Z0-9]{8,}" placeholder="Enter your password" required>
+        <i class="bi bi-eye-fill" id="togglePasswordConfirm"></i>
+        <input type="checkbox" name="terms" value="terms" class="inline compress" required> <div class="align">
+          I agree to the <a href="#"><span>Terms of Service</span></a> and<br> <a href="#"><span>Privacy Policy</span></a>
+        </div>
+        <input type="submit" id="submit" value="Sign Up" class="space">
+        <a href="login.html" class="exist">Already have an account? <span class="log">Log in</span></a>
+      </fieldset>
+
+
+    </form>
+  </div>
+
+  <script src="../JS/email-signup.js"></script>
+</body>
+</html>
