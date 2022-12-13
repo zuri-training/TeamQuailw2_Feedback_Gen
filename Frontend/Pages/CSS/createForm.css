@@ -96,6 +96,73 @@ form input[type="file"] {
 }
 
 
+footer {
+  background: #3F00Ff;
+  padding-top: 5rem;
+  font-size: 0.9rem;
+  margin-top: 13rem;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+}
+
+.footer__container > div h4 {
+  margin-bottom: 1.2rem;
+}
+
+footer h4, h2, p {
+  color: #fff;
+}
+
+footer ul li {
+  margin-bottom: 0.7rem;
+}
+footer a {
+  color: #fff;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.dip {
+  margin-top: 4rem;
+  width: 100%;
+}
+
+.footer__below {
+  border-top: 1px solid #fff;
+  margin-top: 0.6rem;
+}
+
+.between {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 950px) {
+  .footer__container {
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+  }
+  
+  .dip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+}
+
 @media screen and (max-width:768px) {
   .search-bar {
     position: absolute;
