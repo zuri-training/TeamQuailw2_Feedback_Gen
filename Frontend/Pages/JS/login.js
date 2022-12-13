@@ -10,7 +10,7 @@ const login = () => {
                 password: password,
             };
 
-            const API_URL = "http://localhost:3000/auth/login";
+            const API_URL = "https://yellow-antelope-coat.cyclic.app/auth/login";
             const REQUEST_HEADERS = {
                 "Content-Type": "application/json",
             };
