@@ -1,21 +1,34 @@
-const login = () =>{
-    const form = document.getElementById('formlogin');
-if(form){
-  form.addEventListener("submit",(e)=>{
-   
-    e.preventDefault();
-  validate()
- 
-  })
-  }
-}
+const login = () => {
+    const form = document.getElementById("formlogin");
+    if (form) {
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const user = {
+                email: email,
+                password: password,
+            };
 
-  const validate= () =>{
-    const email = document.getElementById('email').value
-    const password = document.getElementById('password').value
-    const usersDetails = {
-        emailAddress: email,
-        userPassword: password
+            const API_URL = "http://localhost:3000/auth/login";
+            const REQUEST_HEADERS = {
+                "Content-Type": "application/json",
+            };
+
+            axios
+                .post(API_URL, user, { headers: REQUEST_HEADERS })
+                // Handle a successful response from the server
+                .then((response) => {
+                    // Getting a data object from response that contains the necessary data from the server
+                    const data = response.data;
+                    console.log(data);
+                    // Save logged in user to localstorage
+                    localStorage.setItem("details", JSON.stringify(user));
+                    
+                    // Redirect to a page after successful login
+                })
+                // Catch and print errors if any
+                .catch((error) => console.error("Login", error));
+        });
     }
-        localStorage.setItem("details", JSON.stringify(usersDetails))
-  }
+};
