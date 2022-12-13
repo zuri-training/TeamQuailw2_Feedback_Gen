@@ -137,7 +137,7 @@ hr{
 }
 
     .signup-now{
-    width: 65%;
+    width: 80%;
     text-align: center;
     background-color: #F5F5F5;
     padding: 10px;
@@ -169,7 +169,7 @@ hr{
     text-align: center;
 }
     .signup-item{
-    width: 50%;
+    width: 80%;
     margin: auto;
     padding: 5px 90px 5px;
     align-items: center;
@@ -185,5 +185,11 @@ hr{
     
     text-align: center;
     color: #3F00FF;
+}
+.hr {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    margin: 8px auto 0px;
 }
 }
