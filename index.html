@@ -1,287 +1,258 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="stylesheet" href="Frontend/Pages/CSS/index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Scope+One&family=Source+Serif+Pro:wght@700&family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <title>Landing page</title>
-</head>
-<body>
-    <header>
-        <div id="logo-section">
-            <!-- <img src="" alt="qww text" class="svg"> -->
-            <a href="index.html"><img class="logo" src="Frontend/Pages/images/Feedbac_gen-logo.png" alt=""></a>
-        </div>
-        <div id="mid-nav">
-            <ul>
-                <li><a href="">Templates Gallery</a></li>
-                <li><a href="">Plans & Pricing</a></li>
-            </ul>
-        </div>
-        <div class="btn">
-            <a href="Frontend/Pages/html/login.html" ><button type="submit" class="btn-1">Log In</button></a>
-            <a href="Frontend/Pages/html/signup-now.html" ><button type="submit" class="btn-2">Sign Up</button></a>
-        </div>
-    </header>
-
-
-    <section class="content">
-        <div>
-            <div>
-                <h1 class="content-header-text-1">
-                    There's a better <br> way to ask 
-                </h1><br>
-                <p>Don't create a form that is monotonous,one that <br>
-                    won't be answered by your audience either. Instead, <br>
-                    develop a Feedback_Gen and please everyone
-                </p><br>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QUAINW2</title>
     
-                <div class="section-2-buttons">
-                    <a href="#" class="info-btn"> 
-                        <button style="background: #F7F5FF;"> 
-                            Explore Plans 
-                        </button> 
-                    </a>
+    <!--bootstrap link-->
+    <link rel="stylesheet" href="Frontend/bootstrap-5.2.3-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="Frontend/bootstrap-5.2.3-dist/css/bootstrap.min.css">
     
-                    <a href="#" class="info-btn"> 
-                        <button style="background:#3F00FF; color: #F7F5FF;"> 
-                            <img src="./images/Vector.png" alt="plus icon"> 
-                            Get Started 
-                        </button> 
-                    </a>
-                </div>
-            <div><img class="section-2-image-section" src="./images/image 2.png" alt=""></div>
-        </div>
-        <!-- <div class="info">
-            <h1 class="content-header-text-1">
-                There's a better <br> way to ask 
-            </h1><br>
-            <p>Don't create a form that is monotonous,one that <br>
-                won't be answered by your audience either. Instead, <br>
-                develop a Feedback_Gen and please everyone
-            </p><br>
-
-            <div class="section-2-buttons">
-                <a href="#" class="info-btn"> 
-                    <button style="background: #F7F5FF;"> 
-                        Explore Plans 
-                    </button> 
-                </a>
-
-                <a href="#" class="info-btn"> 
-                    <button style="background:#3F00FF; color: #F7F5FF;"> 
-                        <img src="./images/Vector.png" alt="plus icon"> 
-                        Get Started 
-                    </button> 
-                </a>
-            </div>
-        </div>
-
-        <div>
-            <img class="section-2-image-section" src="./images/image 2.png" alt="">
-        </div> -->
-    </section>
-
-    <div class="text"> 
-        <h2>Make <span>forms</span>, <span>surveys</span> and <span>quizzes</span> that <br>
-            people want to respond to.
-        </h2>
+    <!--custom stylesheet-->
+    <link rel="stylesheet" href="Frontend/Pages/CSS/homepage.css">
+    
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  </head>
+  <body>
+<section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/#"><img src="Frontend/Pages/images/Feedbac_gen-logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="/#">Template Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#">Plans & Pricing</a>
+        </li>
+      
+      </ul>
+      <form class="d-flex" role="search">
+        <button class="btn btn-outline-success login" type="submit"><a href="Frontend/Pages/html/login.html" class="navi-link login">Log In</a></button>
+        <button class="btn btn-outline-success signup" type="submit"><a href="Frontend/Pages/html/signup-now.html" class="navi-link">Sign Up</a></button>
+      </form>
     </div>
-
-    <section class="section-4">
-        <div class="frame-9">
-            <h2>With form integrations, <br> let data flow into your <br> everyday apps.</h2>
-            <p>with the help of our smooth connectors, Feedback Gen <br> morphs into 
-                a robust front-end data harvesting solution <br> that interacts well with a 
-                comprehensive range of <br> software to drive various institutions.
-            </p>
-        </div>
-        <img src="./images/image 3.png" alt="" style="height: 300px; width: 300px;">
-    </section>
-
-    <section class="section-5">
-        <div class="plans-text">
-            <h3 class="plans">Pricing Plans</h3>
-            <h4>No credit card required. Cancel anytime.</h4>
-        </div>
-        <div id="pricing-cards">
-            <div class="main Basic">
-                <div id="semi-circle">
-                    <h1>
-                        Basic
-                    </h1>
-                </div>
-                <div class="card-text">
-                    <h2 class="card-header-two">
-                        Create powerful <br>
-                        forms free
-                    </h2>
-                    <button class="card-button">
-                        Get Started
-                    </button>
-                    <p class="card-body-text">
-                        1 user <br>
-                        Unlimited forms <br>
-                        500 entries / mo. <br>
-                        Accept payment details <br>
-                        100 MB of storage <br>
-                    </p>
-                </div>
-            </div>
-    
-            <div class="main Premium">
-                <div class="semi-circle">
-                    <h1>
-                        Premium
-                    </h1>
-                </div>
-                <div class="card-text">
-                    <h2 class="card-header-two">
-                        Create powerful <br>
-                        forms free
-                    </h2>
-                    <button class="card-button">
-                        Get Started
-                    </button>
-                    <p class="card-body-text">
-                        1 user <br>
-                        Unlimited forms <br>
-                        500 entries / mo. <br>
-                        Accept payment details <br>
-                        100 MB of storage <br>
-                    </p>
-                </div>
-            </div>
-    
-            <div class="main Silver">
-                <div id="semi-circle">
-                    <h1>
-                        Silver
-                    </h1>
-                </div>
-                <div class="card-text">
-                    <h2 class="card-header-two">
-                        Create powerful <br>
-                        forms free
-                    </h2>
-                    <button class="card-button">
-                        Get Started
-                    </button>
-                    <p class="card-body-text">
-                        1 user <br>
-                        Unlimited forms <br>
-                        500 entries / mo. <br>
-                        Accept payment details <br>
-                        100 MB of storage <br>
-                    </p>
-                </div>
-            </div>
-        </div>
-        
-    </section>
-
-    <section class="section-6">
-        <div id="contact">
-            <h1>Contact Us</h1>
-            <form>
-                <input type="text" id="name" placeholder="Enter your full name" required/><br><br>
-                <input type="email" id="email" placeholder="Enter your email address" required/><br><br>
-                <textarea type="text" name="message" cols="30" rows="10" placeholder="Write your message"></textarea>
-                <button type="submit" class="submit-btn">
-                    Submit
-                </button>
-            
-            </form>
-
-        </div>
-        <div>
-            <img src="images/image 5.jpg" alt="" style="height: 600px; width: 640px;">
-        </div>
-
-    </section>
-    
-    <section class="section-7">
-        <div id="about-us">
-            <h2>About  Us</h2>
-            <p>with the help of our smooth connectors. Feedback Gen 
-                <br> morphs into a robust front-end data harvesting solution <br>
-                that interacts well with a comprehensive range of <br>
-                software to drive various institutions.
-            </p>
-        </div>
-
-    </section>
-    
-  <footer>
-    <div class="container footer__container">
-      <div class="footer__2">
-        <h4 class="tp">Company</h4>
-        <ul class="permalinks tp">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Why Choose us</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Testimonial</a></li>
-        </ul>
+  </div>
+</nav>
+</section>
+<!-- banner section-->
+<section id="banner">
+  <div class="container">
+    <div class="row banner-section">
+      <div class="col-md-6">
+        <h1 class="banner-headline">There's a better way to ask</h1>
+        <p class="banner-subheadline">Don't create a form that is monotonous, one that won't be answered by your audience. instead, develop a feedback_gen and please everyone.</p>
+        <button class="btn btn-outline-success login btn-banner btn-explore" type="submit">Explore plans</button>
+        <button class="btn btn-outline-success signup btn-banner get-started" type="submit">+ Get Started</button>
       </div>
-
-      <div class="footer__2">
-        <h4 class="tp">Resources</h4>
-        <ul class="permalinks tp">
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms and Condition</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
+      <div class="col-md-6">
+        <img src="Frontend/Pages/images/image2.png" class="img-fluid">
       </div>
+    </div>
+  </div>
+</section>
 
-      <div class="footer__2">
-        <h4 class="tp">Community</h4>
-        <ul class="permalinks tp">
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Linkedin</a></li>
-          <li><a href="#">Instagram</a></li>
-        </ul>
+<!--catchphrase section-->
+   <section id="catch-phrase">
+     <div class="container">
+       <div class="row catch-phrase">
+         <div class="col"></div>
+         <div class="col-m-8 text-center">
+           <p class="catch-phrase-text">Make <span>forms</span>, <span>surveys</span> and <span>quizzes</span> that</p>
+           <p class="catch-phrase-text">people want to respond to.</p>
+         </div>
+         <div class="col"></div>
+       </div>
+     </div>
+   </section>
+   <!--2nd banner section-->
+   <section id="banner">
+  <div class="container">
+    <div class="row banner-section">
+      <div class="col-md-6">
+        <h1 class="second-banner-headline">With form integrations, let data flow into your everyday apps.</h1>
+        <p class="second-banner-subheadline">With the help of our smooth connectors, Feedback Gen morphs into a robust fron-end data harvesting solution that interacts well with a comprehensive range of software to drive various institutions.</p>
       </div>
+      <div class="col-md-6">
+        <img src="Frontend/Pages/images/image3.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
 
-      <div class="footer__4">
-        <h2 class="rgt">Feedback Gen</h2>
-        <div>
-          <p class="rgt">
-            Subscribe to our newsletter
+<!--services-->
+<section id="services">
+  <div class="container">
+    <h2 class="text-center">Pricing Plans</h2>
+    <p class="text-center">No credit card required. Cancel anytime.</p>
+    <div class="row service text-center">
+      <div class="col-md-4">
+        <div class="pricing small">
+          <h4 class="pricing-headline">Basic</h4>
+          <p class="pricing-subheadline">
+            Create powerful forms free
           </p>
-          <form>
-            <input type="email" name="email" id="email" placeholder="Enter your email" required>
-            <button type="submit">subscribe</button>
-          </form>
+          <button class="btn price-btn btn-sm">Get started</button>
+          <p>
+            1 user Unlimited forms 500 entries / mo. Accept payment details 100 MB of storage
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pricing">
+          <h4 class="pricing-headline">Premium</h4>
+          <p class="pricing-subheadline">
+            Create powerful forms free
+          </p>
+          <button class="btn price-btn btn-sm">Get started</button>
+          <p>
+            1 user Unlimited forms 500 entries / mo. Accept payment details 100 MB of storage
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pricing small">
+          <h4 class="pricing-headline">Silver</h4>
+          <p class="pricing-subheadline">
+            Create powerful forms free
+          </p>
+          <button class="btn price-btn btn-sm">Get started</button>
+          <p>
+            1 user Unlimited forms 500 entries / mo. Accept payment details 100 MB of storage
+          </p>
         </div>
       </div>
     </div>
-
-    <div class="container footer__container dip">
-      <div class="footer__below">
+    <div class="row contact">
+      <div class="col-md-6">
+        <h4 class="text-center contact-headline">Contact Us</h4>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-md-8">
+                   <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="Enter your full name" />
+                    </div>
+          </div>
+          <div class="col"></div>
+        </div>
+        <div class="row">
+         <div class="col"></div>
+          <div class="col-md-8">
+                  <div class="mb-3">
+                      <input type="email" class="form-control" placeholder="Enter your email address" />
+                    </div>
+          </div>
+          <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+          <div class="col-md-8">
+                <div class="mb-3">
+                      <textarea class="form-control" name="bio" rows="6" cols="30" placeholder="Write your message"></textarea>
+                    </div>
+          </div>
+          <div class="col"></div>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-md-4">
+            <div class="d-grid gap-2">
+                    <button type="button" class="btn btn-brown contact-btn btn-sm">Submit</button>
+                    </div>
+          </div>
+          <div class="col"></div>
+        </div>
       </div>
-
-      <div class="between">
-        <small>Copyright &copy; <script>
-          document.write(new Date().getFullYear());
-        </script>
-          Zuri</small>
+      <div class="col-md-6">
+        <img src="Frontend/Pages/images/image5.png" class="img-fluid contact-img">
       </div>
-
-      <div class="between">
-        <small><a href="#"><i class="uil uil-facebook"></i></a> <a href="#"><i class="uil uil-github"></i></a> <a href="#"><i class="uil uil-twitter"></i></a> <a href="#"><i class="uil uil-linkedin"></i></a></small>
-      </div>
-
-      <div class="footer__below">
-      </div>
-
     </div>
-  </footer>
-
-</body>
+    <div class="row about">
+      <div class="col-md-6">
+        <h4>About Us</h4>
+        <p>With the help of our smooth connectors, Feedback Gen morphs into a robust fron-end data harvesting solution that interacts well with a comprehensive range of software to drive various institutions.</p>
+      </div>
+      <div class="col-md-6"></div>
+    </div>
+  </div>
+</section>
+<hr/>
+<!--footer-->
+<section id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-4 footer">
+            <h5>Company</h5>
+        <ul>
+          <li>About Us</li>
+          <li>Why Choose Us</li>
+          <li>Pricing</li>
+          <li>Testimonial</li>
+        </ul>
+          </div>
+          <div class="col-md-4 footer">
+            <h5>Resources</h5>
+        <ul>
+          <li>Privacy Policy</li>
+          <li>Terms & Condition</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
+          </div>
+          <div class="col-md-4 footer">
+            <h5>Community</h5>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Linkedin</li>
+          <li>Instagram</li>
+        </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 footer feedback">
+        <h4>FEEDBACK GEN</h4>
+        <ul>
+          <li>subscribe to our news letter</li>
+        </ul>
+        <div class="mb-3">
+                      <input type="email" class="form-control" placeholder="Enter your Email" />
+                    </div>
+                    <button class="subscribe btn btn-sm btn-subscribe">Subscribe</button>
+      </div>
+    </div>
+    <div class="row socials">
+      <div class="col-md-3">
+           <img src="Frontend/Pages/images/Frame25.png" class="img-fluid">
+      </div>
+      <div class="col-md-3">
+        <p class="date">
+      &copy; <script>
+        document.write(new Date().getFullYear())
+      </script>
+      Zuri Team
+    </p>
+      </div>
+      <div class="col-md-3">
+      <i class="fab fa-facebook-square"></i>
+       <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+      </div>
+      <div class="col-md-3">
+        <img src="Frontend/Pages/images/Frame25.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</section>
+    <script src="Frontend/bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
