@@ -8,11 +8,11 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 0.2em 1em;
-    font-family: 'Hind Guntur', sans-serif;
   }
   .menu-container{
     padding-right: 10%;
 }
+
 .uli {
     list-style-type: none;
     display: flex;
@@ -29,9 +29,6 @@ hr {
     border: 1px solid #878787;
 }
 
-/* .title {
-margin: 0;
-} */
 
 .list{
     padding: 0.2em;
@@ -49,7 +46,7 @@ margin: 0;
 ul {
     list-style-type: none;
     display: flex;
-    gap: 2em;
+   
     
     color: #353434;
     align-items: center; 
@@ -133,26 +130,8 @@ h2 {
 }
 
 
-/* Footer */
-footer{
-    background-color: #878787;
-    margin-top: 4%;
-    display: flex;
-}
-/* .footbody{
-    width: 80%;
-} */
-.footlist {
-    margin-top: 1%;
-    display: flex;
-}
-.comp{
-    margin: 4% 2%;
-}
-.newsletter {
-    margin: 2% 5%;
-    padding-left: 50%;
-}
+
+
 
 
 
