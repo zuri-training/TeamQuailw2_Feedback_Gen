@@ -129,7 +129,7 @@ hr{
     color: #3F00FF;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 688px) and (min-width: 300px) {
     body{
     background-color: #FFFFFF;
     width: 100%;
@@ -140,8 +140,6 @@ hr{
     width: 80%;
     text-align: center;
     background-color: #F5F5F5;
-    padding: 10px;
-    margin-top: 80px;
 }
     .signup-now h2{
     font-size: 20px;
