@@ -94,7 +94,9 @@ form input[type="file"] {
 .search-bar {
   margin-top: -40px;
 }
-
+.center-div p{
+  color: #000000;
+}
 
 footer {
   background: #3F00Ff;
