@@ -107,6 +107,8 @@ For TeamQuail members, follow the following steps to collaborate:
 * UX Research Documentation - 
 * Contributors Details and Tasks - 
 * Database Schema - 
+* View live site here👇🏾
+https://zuri-training.github.io/TeamQuailw2_Feedback_Gen/
 
 ## Acknowledgements
 
