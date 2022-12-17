@@ -102,11 +102,13 @@ For TeamQuail members, follow the following steps to collaborate:
 10. Go to Github and create a new pull request to the main branch. It will then be reviewed and merged into the master.
 
 ## Relevant Links
-* Figma Designs - 
-* General Team Documentation - 
+* Figma Designs -
+LoFi: https://www.figma.com/file/TbIbXaJZb07hsj6oRL3meK/TeamQuailW2-Feedback_Gen.?node-id=76%3A146&t=yKPcztQI4XU6swPI-3
+HiFi: https://www.figma.com/file/TbIbXaJZb07hsj6oRL3meK/TeamQuailW2-Feedback_Gen.?node-id=118%3A154&t=yKPcztQI4XU6swPI-3
+* General Team Documentation - https://docs.google.com/document/d/1-xFP7cbrEc0zb2zKt9BtKfzpzFIuBR6-/edit 
 * UX Research Documentation - 
 * Contributors Details and Tasks - 
-* Database Schema - 
+* Database Schema - https://dbdesigner.page.link/ikFRToX6zCfM1PE8A
 * View live site here👇🏾
 https://zuri-training.github.io/TeamQuailw2_Feedback_Gen/
 
