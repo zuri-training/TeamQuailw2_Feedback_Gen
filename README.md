@@ -1,5 +1,10 @@
 # TeamQuailw2_Feedback_Gen
 
+### **HOSTED LINK**
+[LINK](https://zuri-training.github.io/TeamQuailw2_Feedback_Gen/)
+
+
+
 ## Table of Contents
 
 * [Introduction](#introduction)
@@ -7,8 +12,11 @@
 * [Project Overview](#project-overview)
 * [Features](#features)
 * [Technologies Used](#technologies-used)
-* [Product Device](#product-device)
+* [Product Devices](#product-devices)
 * [Product Accessibility](#product-accessibility)
+* [Project Status](#project-status)
+* [Relevant Links](#relevant-links)
+* [Collaborators](#collaborators)
 * [Acknowledgement](#acknowledgement)
 * [Reference](#reference)
 
@@ -103,16 +111,32 @@ For TeamQuail members, follow the following steps to collaborate:
 
 ## Relevant Links
 * Figma Designs -
-LoFi: https://www.figma.com/file/TbIbXaJZb07hsj6oRL3meK/TeamQuailW2-Feedback_Gen.?node-id=76%3A146&t=yKPcztQI4XU6swPI-3
-HiFi: https://www.figma.com/file/TbIbXaJZb07hsj6oRL3meK/TeamQuailW2-Feedback_Gen.?node-id=118%3A154&t=yKPcztQI4XU6swPI-3
+ LoFi: https://www.figma.com/file/TbIbXaJZb07hsj6oRL3meK/TeamQuailW2-Feedback_Gen.?node-id=76%3A146&t=yKPcztQI4XU6swPI-3
+ HiFi: https://www.figma.com/file/TbIbXaJZb07hsj6oRL3meK/TeamQuailW2-Feedback_Gen.?node-id=118%3A154&t=yKPcztQI4XU6swPI-3
 * General Team Documentation - https://docs.google.com/document/d/1-xFP7cbrEc0zb2zKt9BtKfzpzFIuBR6-/edit 
 * UX Research Documentation - 
 * Contributors Details and Tasks - 
 * Database Schema - https://dbdesigner.page.link/ikFRToX6zCfM1PE8A
-* View live site here👇🏾
+* View live site here👇🏾 
 https://zuri-training.github.io/TeamQuailw2_Feedback_Gen/
 
-## Acknowledgements
+### Collaborators
+* Bolaji Sakariyau (Team Lead)
+* Aderinsola Alawoki
+* Glory Alphonsus
+* Akintonde Azeez
+* Mustapha Abdulkareem
+* Nnorom Gift
+* Ifeanyi Ugwueze
+* Esther Lawrence
+* Nwabakwu Osakuni
+* Chinemerem ThankGod
+* Princewill Orie
+* Naa Odey Solomon
+* Thulile Mbuthuma
+* Sunday Emmanuel
+
+## Acknowledgement
 
 This project is acknowlegded to Zuri Team for creating this organization, tutoring us and assigning this project to us.
 Special thanks to the sponsors too.
